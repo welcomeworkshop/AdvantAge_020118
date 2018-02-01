@@ -89,6 +89,14 @@ h4::before {
     width: 100%;
     margin-bottom: 2em;
 }
+.jumbotron-about {
+  background: transparent url('about.jpg') 0 0 no-repeat fixed;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='about.jpg', sizingMethod='scale');
+    height: 430px;
+    width: 100%;
+    margin-bottom: 2em;
+}
 
 .jumbotronblue {
   background-color: #0672b0;
