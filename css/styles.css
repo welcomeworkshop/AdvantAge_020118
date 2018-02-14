@@ -54,59 +54,28 @@ h4::before {
 .bg-light {
     background-color: #fff!important;
 }
+.jumbotron {
+  height: 400px;
+  background: #fff;
+}
+
 
 .jumbotron-main {
-  background: transparent url('advantage_main.jpg') 0 0 no-repeat fixed;
-    background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='advantage_main.jpg', sizingMethod='scale');
-    height: 430px;
-    width: 100%;
-    margin-bottom: 2em;
-}
+background-image: url(advantage_main.jpg);
+background-size: cover;
+height: 100%;
+min-height: 400px;
 
-.jumbotron-whatis {
-  background: transparent url('whatistheadvantage.jpg') 0 0 no-repeat fixed;
-    background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='whatistheadvantage.jpg', sizingMethod='scale');
-    height: 430px;
-    width: 100%;
-    margin-bottom: 2em;
-}
-
-.jumbotron-inaction {
-  background: transparent url('advantage_in_action.jpg') 0 0 no-repeat fixed;
-    background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='advantage_in_action.jpg', sizingMethod='scale');
-    height: 430px;
-    width: 100%;
-    margin-bottom: 2em;
-}
-.jumbotron-communities {
-  background: transparent url('communities.jpg') 0 0 no-repeat fixed;
-    background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='communities.jpg', sizingMethod='scale');
-    height: 430px;
-    width: 100%;
-    margin-bottom: 2em;
-}
-.jumbotron-about {
-  background: transparent url('about.jpg') 0 0 no-repeat fixed;
-    background-size: cover;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='about.jpg', sizingMethod='scale');
-    height: 430px;
-    width: 100%;
-    margin-bottom: 2em;
+  }
+  .jumbotron-footer {
+  padding: 3rem 7rem;
+  background-color: #fff ;
+  max-height: 250px;
 }
 
 .jumbotronblue {
   background-color: #0672b0;
 }
-
-.jumbotron-footer {
-  padding: 3rem 7rem;
-  background-color: #fff ;
-}
-
 
 
 .btn-primary {
